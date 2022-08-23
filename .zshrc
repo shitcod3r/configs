@@ -9,8 +9,10 @@ export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
-# My cusotom exports
+# My custom exports
 export TERM=xterm-256color
+export PAGER='less -F -S -R -M -i'
+export MANPAGER='less -R -M -i +Gg'
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
