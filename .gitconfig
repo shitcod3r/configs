@@ -1,6 +1,7 @@
 [core]
 	editor = vim
 	autocrlf = true
+	pager = less -F -S -R -i
 [alias]
 	s = status
 	l = log
