@@ -10,3 +10,11 @@
 	d = diff
 	ds = diff --staged
 	ca = commit --amend
+	ll = log --format='%C(auto)%ad %an %h %s' --date=format:'%y-%m-%d'
+	# with graph
+	llg = log --format='%C(auto)%ad %an %h %s' --date=format:'%y-%m-%d' --graph
+	# with %d - ref
+	llr = log --format='%C(auto)%ad %an %h %d %s' --date=format:'%y-%m-%d'
+	# with %d and graph
+	llgr = log --format='%C(auto)%ad %an %h %d %s' --date=format:'%y-%m-%d' --graph
+	llrg = log --format='%C(auto)%ad %an %h %d %s' --date=format:'%y-%m-%d' --graph
