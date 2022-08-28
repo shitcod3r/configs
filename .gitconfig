@@ -9,3 +9,4 @@
 	su = status -u
 	d = diff
 	ds = diff --staged
+	ca = commit --amend
