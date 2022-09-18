@@ -19,3 +19,6 @@
 	# with %d and graph
 	llgr = log --format='%C(auto)%ad %an %h %d %s' --date=format:'%y-%m-%d' --graph
 	llrg = log --format='%C(auto)%ad %an %h %d %s' --date=format:'%y-%m-%d' --graph
+	cam = commit -a -m
+	caa = commit -a --amend
+	cm = commit -m
